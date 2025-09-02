@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8080;
 
 // Initialize Gemini AI
 const GEMINI_API_KEY = 'AIzaSyCQv-rhFFt79upmcFP_8cThTacd1vtxQbA'; // Replace with your API key
